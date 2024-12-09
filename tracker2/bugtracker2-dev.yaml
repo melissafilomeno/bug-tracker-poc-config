@@ -17,7 +17,7 @@ spring:
     driver-class-name:
       com.mysql.cj.jdbc.Driver
     hikari:
-      maximumPoolSize: 200
+      maximumPoolSize: 100
 management:
   endpoint:
     env:
