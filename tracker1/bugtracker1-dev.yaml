@@ -13,7 +13,7 @@ spring:
     username:
       bug_user
     password:
-      ${MYSQL_PASSWORD}
+      "{cipher}194056989242c61fadeff4262dcc9952e422dc096287ce683cdc21366e853c42"
     driver-class-name:
       com.mysql.cj.jdbc.Driver
 management:

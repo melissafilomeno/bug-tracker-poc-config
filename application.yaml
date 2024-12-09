@@ -11,4 +11,3 @@ management:
     web:
       exposure:
         include: "*"
-connstring: "{cipher}d9bfd509485e0e95f98a358d85e5b022bb36293c4a45903141b53841b0294e3cf10155ec4ccd4e9f6caf50067802eb1fdd09417eb00514734250b603366dd094905af1636deb7812cb04caea5b41a96c"
