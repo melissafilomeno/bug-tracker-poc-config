@@ -20,3 +20,5 @@ management:
   endpoint:
     env:
       show-values: always
+    configprops:
+      show-values: always
