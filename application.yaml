@@ -5,7 +5,7 @@ logging:
   file:
     name: bug-tracker-poc
     # Note: logging.file.path is used via springProperty in logback-spring.xml
-    path: C://Users/melis/logs
+    path: C://logs
 management:
   endpoints:
     web:
