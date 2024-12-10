@@ -1,8 +1,4 @@
 spring:
-  docker:
-    compose:
-      enabled: true
-      file: docker-compose.yml
   jpa:
     hibernate:
       ddl-auto:
@@ -16,8 +12,6 @@ spring:
       "{cipher}9fbdeeeb711c7dea6b99040b1cb7c6ef942ff7eb399316190f1141e18ed94658"
     driver-class-name:
       com.mysql.cj.jdbc.Driver
-    hikari:
-      maximumPoolSize: 50
 management:
   endpoint:
     env:
