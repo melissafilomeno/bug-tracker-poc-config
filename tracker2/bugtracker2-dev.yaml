@@ -5,9 +5,9 @@ spring:
         none
   datasource:
     url:
-      jdbc:mysql://localhost:3307/mydb
+      "${cipher}9268f29d21010ea81efd9dcd1c0dacd79be9b35f9bc0b495bdf56327ff5d9abe"
     username:
-      bug_user
+      "${cipher}52b6a6a21bf9c1aa13b3259a69a7cb26a9f556fe4a4161d6e3b90c530952c5d5"
     password:
       "{cipher}3504f4d7fb338692fbe152bed2f5a746f7f97688cb2aa078cfb8aa85ae252c30"
     driver-class-name:
